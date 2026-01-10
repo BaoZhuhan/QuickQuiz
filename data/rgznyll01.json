@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "type": "multiple",
+    "text": "对人工智能常见的误解有哪些？",
+    "options": [
+      { "key": "A", "text": "人工智能就是机器学习" },
+      { "key": "B", "text": "机器学习只是人工智能中的一个方向" },
+      { "key": "C", "text": "人工智能最近十年受到深度学习的驱动较多" },
+      { "key": "D", "text": "人工智能就是深度学习" }
+    ],
+    "answer": ["A", "D"],
+    "score": 20
+  },
+  {
+    "id": 2,
+    "type": "tf",
+    "text": "哲学思维对于人工智能的重要性表现在，哲学所强调的批判性思维有助于认清人工智能发展中的问题。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 3,
+    "type": "tf",
+    "text": "深度学习在人工智能领域的表现并不突出。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 4,
+    "type": "multiple",
+    "text": "下列哪些选项是符号AI的技术路线？",
+    "options": [
+      { "key": "A", "text": "通用问题求解器" },
+      { "key": "B", "text": "深度学习" },
+      { "key": "C", "text": "机器学习" },
+      { "key": "D", "text": "贝叶斯网络" }
+    ],
+    "answer": ["A", "D"],
+    "score": 20
+  },
+  {
+    "id": 5,
+    "type": "single",
+    "text": "“人工智能之父”是？",
+    "options": [
+      { "key": "A", "text": "约翰·麦卡锡" },
+      { "key": "B", "text": "艾伦·图灵" },
+      { "key": "C", "text": "赫尔伯·西蒙" },
+      { "key": "D", "text": "马文·明斯基" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "text": "人工智能与计算机学科的关系是？",
+    "options": [
+      { "key": "A", "text": "计算机学科的主要驱动力是人工智能研究" },
+      { "key": "B", "text": "计算机是人工智能研究的一个领域" },
+      { "key": "C", "text": "人工智能是计算机学科的一个分支" },
+      { "key": "D", "text": "人工智能与计算机学科没有联系" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "text": "人工智能作为一门学科的建立时间是？",
+    "options": [
+      { "key": "A", "text": "1956年" },
+      { "key": "B", "text": "1930年" },
+      { "key": "C", "text": "1960年" },
+      { "key": "D", "text": "1952年" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 8,
+    "type": "tf",
+    "text": "符号AI是将人的思维通过逻辑语言制成流形图让计算机去执行。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 9,
+    "type": "tf",
+    "text": "通用问题求解器需要寻找全局最优解。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 10,
+    "type": "tf",
+    "text": "符号AI无法面对人类经验的变动性。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 11,
+    "type": "multiple",
+    "text": "人工神经元网络与深度学习的关系是？",
+    "options": [
+      { "key": "A", "text": "人工神经元网络是深度学习的前身" },
+      { "key": "B", "text": "深度学习是人工神经元网络的一个分支" },
+      { "key": "C", "text": "深度学习是人工神经元网络的一个发展" },
+      { "key": "D", "text": "深度学习与人工神经元网络无关" }
+    ],
+    "answer": ["A", "C"],
+    "score": 20
+  },
+  {
+    "id": 12,
+    "type": "multiple",
+    "text": "人工神经元网络的运作可以粗略分为哪三个层面？",
+    "options": [
+      { "key": "A", "text": "输入层" },
+      { "key": "B", "text": "映射机制" },
+      { "key": "C", "text": "中间处理层" },
+      { "key": "D", "text": "输出层" }
+    ],
+    "answer": ["A", "C", "D"],
+    "score": 20
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "text": "现在新出现的人工智能的研究方向是？",
+    "options": [
+      { "key": "A", "text": "深度学习" },
+      { "key": "B", "text": "人工神经元网络" },
+      { "key": "C", "text": "贝叶斯网络" },
+      { "key": "D", "text": "类脑人工智能" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 14,
+    "type": "single",
+    "text": "深度学习中的“深度”是指？",
+    "options": [
+      { "key": "A", "text": "计算机理解的深度" },
+      { "key": "B", "text": "中间神经元网络的层次很多" },
+      { "key": "C", "text": "计算机的求解更加精准" },
+      { "key": "D", "text": "计算机对问题的处理更加灵活" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 15,
+    "type": "tf",
+    "text": "符号AI不是人工智能的正统。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 16,
+    "type": "tf",
+    "text": "人工神经元网络是对人类的神经元运作进行一种非常粗糙的数学模拟。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 17,
+    "type": "tf",
+    "text": "相比于人工神经元网络和深度学习，类脑人工智能对人类大脑的神经回路具有更深入的了解。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 18,
+    "type": "multiple",
+    "text": "符号AI的问题在于？",
+    "options": [
+      { "key": "A", "text": "缺少推理必要的信息" },
+      { "key": "B", "text": "把推理所依赖的公理系统全部锁死" },
+      { "key": "C", "text": "缺少推理的灵活性" },
+      { "key": "D", "text": "会遭遇“框架问题”" }
+    ],
+    "answer": ["B", "C", "D"],
+    "score": 20
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "text": "深度学习的实质是？",
+    "options": [
+      { "key": "A", "text": "推理机制" },
+      { "key": "B", "text": "映射机制" },
+      { "key": "C", "text": "识别机制" },
+      { "key": "D", "text": "模拟机制" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 20,
+    "type": "tf",
+    "text": "推理的本质是在信息不足的情况下能够最大程度的得到最靠谱的结论。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 21,
+    "type": "tf",
+    "text": "计算机具有触类旁通的能力，可以根据具体语境对事件进行分类。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 22,
+    "type": "tf",
+    "text": "人工神经元网络会遭遇“框架问题”。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "text": "日本五代计算机泡沫关注的核心问题是？",
+    "options": [
+      { "key": "A", "text": "人工神经元网络" },
+      { "key": "B", "text": "符号AI" },
+      { "key": "C", "text": "贝叶斯网络" },
+      { "key": "D", "text": "自然语言处理" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 24,
+    "type": "tf",
+    "text": "制造人工智能的规划、计划和方案本身应该能根据情况的变化进行自我调整。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  }
+]

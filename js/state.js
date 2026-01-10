@@ -1,0 +1,45 @@
+export const STATE = {
+    subjects: [],
+    sets: [],
+    questions: [],
+    order: [],
+    index: 0,
+    score: 0,
+    results: [], // { questionId, correct, userAnswer }
+    theme: localStorage.getItem('quiz-theme') || 'light',
+    selectedSubjectId: null,
+    selectedSetId: 'all',
+    randomNext: false,
+    isAnswered: false
+};
+
+export const els = {
+    app: document.getElementById('app'),
+    homeView: document.getElementById('home-view'),
+    quizView: document.getElementById('quiz-view'),
+    subjectList: document.getElementById('subject-list'),
+    setSelect: document.getElementById('set-select'),
+    themeSelect: document.getElementById('theme-select'),
+    randomToggle: document.getElementById('random-toggle'),
+    questionCard: document.getElementById('question-card'),
+    statsCard: document.getElementById('stats-card'),
+    questionText: document.getElementById('question-text'),
+    optionsList: document.getElementById('options-list'),
+    statusBar: document.getElementById('status-bar'),
+    feedback: document.getElementById('feedback'),
+    submitBtn: document.getElementById('submit-btn'),
+    nextBtn: document.getElementById('next-btn'),
+    resetBtn: document.getElementById('reset-btn'),
+    endBtn: document.getElementById('end-btn'),
+    backBtn: document.getElementById('back-btn'),
+    exitSubjectBtn: document.getElementById('exit-subject-btn'),
+    menuToggle: document.getElementById('menu-toggle'),
+    nav: document.getElementById('nav'),
+    overlay: document.getElementById('overlay'),
+    accuracy: document.getElementById('accuracy'),
+    scoreCount: document.getElementById('score-count'),
+    wrongList: document.getElementById('wrong-list'),
+    currentSubjectName: document.getElementById('current-subject-name'),
+    quizControls: document.getElementById('quiz-controls'),
+    randomControls: document.getElementById('random-controls')
+};

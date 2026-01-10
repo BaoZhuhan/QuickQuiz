@@ -1,0 +1,21 @@
+{
+    "subjects": [
+        {
+            "id": "demo",
+            "name": "演示科目",
+            "files": [
+                "questions.json"
+            ]
+        },
+        {
+            "id": "rgznyll",
+            "name": "人工智能、语言与伦理",
+            "files": [
+                "rgznyll01.json",
+                "rgznyll02.json",
+                "rgznyll03.json",
+                "rgznyll04.json"
+            ]
+        }
+    ]
+}

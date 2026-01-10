@@ -1,0 +1,866 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "text": "SHRDLU系统实际上是一个()。",
+    "options": [
+      { "key": "A", "text": "积木系统" },
+      { "key": "B", "text": "语义模型" },
+      { "key": "C", "text": "人工装置" },
+      { "key": "D", "text": "人工神经元网络" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 2,
+    "type": "single",
+    "text": "SHRDLU系统是由()发明的。",
+    "options": [
+      { "key": "A", "text": "杰瑞·佛多" },
+      { "key": "B", "text": "约翰·塞尔" },
+      { "key": "C", "text": "赫伯特·西蒙" },
+      { "key": "D", "text": "特里·威诺格拉格" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 3,
+    "type": "tf",
+    "text": "SHRDLU系统预设了在哲学上语词和外部对象具有对应关系。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 4,
+    "type": "tf",
+    "text": "外在主义的语义模型在哲学上的意思是每个语词的真正含义都要通过与其对应的外在对象来加以编码。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 5,
+    "type": "multiple",
+    "text": "乔姆斯基认为人类的语法都有哪两个层面?()",
+    "options": [
+      { "key": "A", "text": "语义层面" },
+      { "key": "B", "text": "深层语法" },
+      { "key": "C", "text": "句法层面" },
+      { "key": "D", "text": "浅层语法" }
+    ],
+    "answer": ["B", "D"],
+    "score": 20
+  },
+  {
+    "id": 6,
+    "type": "single",
+    "text": "语言不仅仅在于句法,更是()的问题。",
+    "options": [
+      { "key": "A", "text": "语义" },
+      { "key": "B", "text": "结构" },
+      { "key": "C", "text": "思维" },
+      { "key": "D", "text": "逻辑" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 7,
+    "type": "single",
+    "text": "实际的翻译中有时要破坏句子原有的句法结构,根据()重新组织句子。",
+    "options": [
+      { "key": "A", "text": "音韵" },
+      { "key": "B", "text": "意义" },
+      { "key": "C", "text": "逻辑" },
+      { "key": "D", "text": "效果" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 8,
+    "type": "tf",
+    "text": "大数据对于语言学习来说,其解释能力非常有限。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 9,
+    "type": "tf",
+    "text": "0-3岁的小孩通过贫乏的语言样本就能够进行有效的语言学习,说明了基于大数据的心智模型是有问题的。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 10,
+    "type": "multiple",
+    "text": "下列属于基于规则的自然语言处理进路的是()。",
+    "options": [
+      { "key": "A", "text": "基于中间语的翻译" },
+      { "key": "B", "text": "基于浅层语法的翻译" },
+      { "key": "C", "text": "基于外在语言的翻译" },
+      { "key": "D", "text": "基于深层语法的翻译" }
+    ],
+    "answer": ["A", "D"],
+    "score": 20
+  },
+  {
+    "id": 11,
+    "type": "multiple",
+    "text": "下列属于外语翻译专业术语的是()。",
+    "options": [
+      { "key": "A", "text": "外在语言" },
+      { "key": "B", "text": "中间语言" },
+      { "key": "C", "text": "源语言" },
+      { "key": "D", "text": "目标语言" }
+    ],
+    "answer": ["C", "D"],
+    "score": 20
+  },
+  {
+    "id": 12,
+    "type": "single",
+    "text": "可以用来界定因果关系的是()。",
+    "options": [
+      { "key": "A", "text": "贝叶斯公式" },
+      { "key": "B", "text": "先验概率" },
+      { "key": "C", "text": "后验概率" },
+      { "key": "D", "text": "归纳逻辑" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 13,
+    "type": "single",
+    "text": "把归纳逻辑抬到比较高的位置的哲学家是()。",
+    "options": [
+      { "key": "A", "text": "海德格尔" },
+      { "key": "B", "text": "大卫·休谟" },
+      { "key": "C", "text": "康德" },
+      { "key": "D", "text": "莱布尼茨" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 14,
+    "type": "tf",
+    "text": "先验概率是指根据以往经验和分析得到的概率。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 15,
+    "type": "tf",
+    "text": "休谟认为在因果推理中只有或然性。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 16,
+    "type": "tf",
+    "text": "同一个语词在不同的语境当中具有不同的含义。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 17,
+    "type": "tf",
+    "text": "贝叶斯公式适合于人工智能的自然语言处理。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 18,
+    "type": "multiple",
+    "text": "康德认为知识的来源有哪两部分?()",
+    "options": [
+      { "key": "A", "text": "心之自发性" },
+      { "key": "B", "text": "先天范畴" },
+      { "key": "C", "text": "感官的杂多性" },
+      { "key": "D", "text": "感性材料" }
+    ],
+    "answer": ["A", "C"],
+    "score": 20
+  },
+  {
+    "id": 19,
+    "type": "single",
+    "text": "下列属于基于统计的自然语言处理进路的是()。",
+    "options": [
+      { "key": "A", "text": "基于中间语的翻译" },
+      { "key": "B", "text": "基于浅层语法的翻译" },
+      { "key": "C", "text": "基于贝叶斯公式" },
+      { "key": "D", "text": "基于深层语法的翻译" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 20,
+    "type": "single",
+    "text": "基于规则与统计的混合进路的自然语言处理进路背后的哲学根据是()的哲学。",
+    "options": [
+      { "key": "A", "text": "莱布尼茨" },
+      { "key": "B", "text": "海德格尔" },
+      { "key": "C", "text": "大卫·休谟" },
+      { "key": "D", "text": "康德" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 21,
+    "type": "tf",
+    "text": "多引擎翻译系统是指本身由很多不同的原则所驱动的混合翻译。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 22,
+    "type": "tf",
+    "text": "混合式自然语言处理进路的问题在于如何将基于规则的自然语言处理与基于规则的语言处理很好地融合在一起。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "text": "影响基于中间语的机器翻译思路的哲学家是()。",
+    "options": [
+      { "key": "A", "text": "康德" },
+      { "key": "B", "text": "大卫·休谟" },
+      { "key": "C", "text": "长尾真" },
+      { "key": "D", "text": "莱布尼茨" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 24,
+    "type": "single",
+    "text": "影响基于统计学自然语言处理的哲学家是()。",
+    "options": [
+      { "key": "A", "text": "康德" },
+      { "key": "B", "text": "大卫·休谟" },
+      { "key": "C", "text": "长尾真" },
+      { "key": "D", "text": "莱布尼茨" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 25,
+    "type": "single",
+    "text": "与基于实际语例的自然语言处理进路有关的哲学家是()。",
+    "options": [
+      { "key": "A", "text": "康德" },
+      { "key": "B", "text": "大卫·休谟" },
+      { "key": "C", "text": "长尾真" },
+      { "key": "D", "text": "莱布尼茨" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 26,
+    "type": "tf",
+    "text": "基于实例的自然语言处理会出现不对齐问题。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 27,
+    "type": "tf",
+    "text": "基于实例的自然语言处理的问题是它会由两种语言之间的对应关系所决定,而有时两种语言之间的对应关系比较难以把捉。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 28,
+    "type": "tf",
+    "text": "基于实例的自然语言处理在语言翻译上具有灵活性。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 29,
+    "type": "tf",
+    "text": "基于实例的自然语言处理需要事先对语用材料的规则性有所把握。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 30,
+    "type": "single",
+    "text": "提出强人工智能与弱人工智能的人是()。",
+    "options": [
+      { "key": "A", "text": "约翰·塞尔" },
+      { "key": "B", "text": "彼得卡鲁瑟斯" },
+      { "key": "C", "text": "杰瑞·福多" },
+      { "key": "D", "text": "埃隆·马斯克" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 31,
+    "type": "single",
+    "text": "专用与通用人工智能讨论的是智能的()问题。",
+    "options": [
+      { "key": "A", "text": "分层" },
+      { "key": "B", "text": "深度" },
+      { "key": "C", "text": "宽窄" },
+      { "key": "D", "text": "语言处理" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 32,
+    "type": "single",
+    "text": "弱人工智能是指仅仅模拟人类大脑的();强人工智能是指其本身就是一个()。",
+    "options": [
+      { "key": "A", "text": "心智;智能" },
+      { "key": "B", "text": "运作;大脑" },
+      { "key": "C", "text": "智能;程序" },
+      { "key": "D", "text": "智能;心智" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 33,
+    "type": "tf",
+    "text": "强人工智能与弱人工智能就等于专业人工智能与通用人工智能。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 34,
+    "type": "tf",
+    "text": "现有的深度学习进路的人工智能并不能达到通用人工智能。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 35,
+    "type": "single",
+    "text": "()的思想激发了基于中间语的机器翻译思路。",
+    "options": [
+      { "key": "A", "text": "笛卡尔" },
+      { "key": "B", "text": "塞尔" },
+      { "key": "C", "text": "莱布尼茨" },
+      { "key": "D", "text": "康德" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 36,
+    "type": "single",
+    "text": "磨坊论证出自()。",
+    "options": [
+      { "key": "A", "text": "《纯粹理性批判》" },
+      { "key": "B", "text": "《单子论》" },
+      { "key": "C", "text": "《人类理智新论》" },
+      { "key": "D", "text": "《神正论》" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 37,
+    "type": "single",
+    "text": "机械主义的说明方式不能囊括人类的()。",
+    "options": [
+      { "key": "A", "text": "感觉" },
+      { "key": "B", "text": "知识" },
+      { "key": "C", "text": "思维" },
+      { "key": "D", "text": "逻辑" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 38,
+    "type": "tf",
+    "text": "灵活理解语句的能力是人类智能的标准。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 39,
+    "type": "tf",
+    "text": "多重可实现主义是指用什么东西来执行计算机的抽象程序来说是不重要的,可以通过很多途径来执行计算机程序。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 40,
+    "type": "multiple",
+    "text": "塞尔区分了()和()。",
+    "options": [
+      { "key": "A", "text": "强人工智能" },
+      { "key": "B", "text": "弱人工智能" },
+      { "key": "C", "text": "专用人工智能" },
+      { "key": "D", "text": "通用人工智能" }
+    ],
+    "answer": ["A", "B"],
+    "score": 20
+  },
+  {
+    "id": 41,
+    "type": "single",
+    "text": "汉字屋论证是()提出的。",
+    "options": [
+      { "key": "A", "text": "埃隆·马斯克" },
+      { "key": "B", "text": "杰瑞·福多" },
+      { "key": "C", "text": "约翰·塞尔" },
+      { "key": "D", "text": "彼得卡鲁瑟斯" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 42,
+    "type": "tf",
+    "text": "任何一个精心编程的计算机,它本身的句法操作不足以支持起语义理解。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 43,
+    "type": "single",
+    "text": "丹尼尔·丹尼特对塞尔“中文屋论证”的批评是()。",
+    "options": [
+      { "key": "A", "text": "过于依赖感官" },
+      { "key": "B", "text": "过于依赖知觉" },
+      { "key": "C", "text": "过于依赖概念" },
+      { "key": "D", "text": "过于依赖直觉" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 44,
+    "type": "single",
+    "text": "塞尔论证的合法性前提是,他的中文屋系统和一般的计算机系统之间是()。",
+    "options": [
+      { "key": "A", "text": "不同的" },
+      { "key": "B", "text": "同构的" },
+      { "key": "C", "text": "互补的" },
+      { "key": "D", "text": "不相容的" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 45,
+    "type": "single",
+    "text": "()无法得知,因为他人的行为和表现有伪装性。",
+    "options": [
+      { "key": "A", "text": "“他心”" },
+      { "key": "B", "text": "“他感”" },
+      { "key": "C", "text": "“灵感”" },
+      { "key": "D", "text": "“灵性”" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 46,
+    "type": "tf",
+    "text": "塞尔认为一个人具有一门语言表达的外部行为就代表其真正懂得这门语言。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 47,
+    "type": "tf",
+    "text": "人类的感官处理也具有机械性。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 48,
+    "type": "multiple",
+    "text": "机器翻译的局限性在于()。",
+    "options": [
+      { "key": "A", "text": "训练样本单一" },
+      { "key": "B", "text": "只能处理简单句" },
+      { "key": "C", "text": "基于已有的既成案例" },
+      { "key": "D", "text": "错误较多" }
+    ],
+    "answer": ["B", "C"],
+    "score": 20
+  },
+  {
+    "id": 49,
+    "type": "tf",
+    "text": "人类译员一定会被机器所取代。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 50,
+    "type": "tf",
+    "text": "现有的机器翻译无法对人类语用环境的丰富性进行处理。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 51,
+    "type": "tf",
+    "text": "文化差异不一定会影响翻译结果。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 52,
+    "type": "multiple",
+    "text": "认知语言学更多地是考虑()。",
+    "options": [
+      { "key": "A", "text": "句法" },
+      { "key": "B", "text": "音韵" },
+      { "key": "C", "text": "语义" },
+      { "key": "D", "text": "语用" }
+    ],
+    "answer": ["C", "D"],
+    "score": 20
+  },
+  {
+    "id": 53,
+    "type": "single",
+    "text": "认知语言学关心的是我们在使用某个概念时,心中浮现出的()。",
+    "options": [
+      { "key": "A", "text": "句法规则" },
+      { "key": "B", "text": "字典上的定义" },
+      { "key": "C", "text": "认知图式" },
+      { "key": "D", "text": "具体语境" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 54,
+    "type": "tf",
+    "text": "翻译不一定发生在不同语言的人之间。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 55,
+    "type": "tf",
+    "text": "翻译机器在进行翻译时会考虑到用户的文化背景。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 56,
+    "type": "single",
+    "text": "框架与框架之间的粘接剂叫做()。",
+    "options": [
+      { "key": "A", "text": "框间网络" },
+      { "key": "B", "text": "框架结构" },
+      { "key": "C", "text": "框架链接" },
+      { "key": "D", "text": "框间关系" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 57,
+    "type": "tf",
+    "text": "框架之间的相互关系构成了人类语言的基本推理系统。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 58,
+    "type": "tf",
+    "text": "框架需要使用整个框架网络,但有时也可单独使用。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 59,
+    "type": "multiple",
+    "text": "人工智能主要依赖的学科有()。",
+    "options": [
+      { "key": "A", "text": "逻辑学" },
+      { "key": "B", "text": "数学" },
+      { "key": "C", "text": "统计学" },
+      { "key": "D", "text": "信息与计算科学" }
+    ],
+    "answer": ["A", "C"],
+    "score": 20
+  },
+  {
+    "id": 60,
+    "type": "single",
+    "text": "计算机的编程语言是以()语为模仿对象的。",
+    "options": [
+      { "key": "A", "text": "西" },
+      { "key": "B", "text": "法" },
+      { "key": "C", "text": "日" },
+      { "key": "D", "text": "英" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 61,
+    "type": "tf",
+    "text": "计算机自身的编程母语是多语种的。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 62,
+    "type": "tf",
+    "text": "人工智能不会受到“母语意识”的影响。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 63,
+    "type": "multiple",
+    "text": "英语重视哪两个问题的区分?()",
+    "options": [
+      { "key": "A", "text": "谓语与非谓语" },
+      { "key": "B", "text": "可数名词与不可数名词" },
+      { "key": "C", "text": "冠词与数词" },
+      { "key": "D", "text": "单复数" }
+    ],
+    "answer": ["B", "D"],
+    "score": 20
+  },
+  {
+    "id": 64,
+    "type": "single",
+    "text": "第一个注意到东方语言中量词问题的语言哲学家是()。",
+    "options": [
+      { "key": "A", "text": "图灵" },
+      { "key": "B", "text": "麦克德莫特" },
+      { "key": "C", "text": "蒯因" },
+      { "key": "D", "text": "罗素" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 65,
+    "type": "tf",
+    "text": "通过海量的数据输入及学习人工智能在量词的指派方面会达到相对准确的程度。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 66,
+    "type": "tf",
+    "text": "基于统计学的和数据训练的人工智能系统是无法对语词背后的含义进行深入的理解的。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 67,
+    "type": "multiple",
+    "text": "汉语的演化史表明,量词的真实功用可能与()没有任何关系。",
+    "options": [
+      { "key": "A", "text": "隐喻机制" },
+      { "key": "B", "text": "个体化机制" },
+      { "key": "C", "text": "单复数区分" },
+      { "key": "D", "text": "补足音素" }
+    ],
+    "answer": ["B", "C"],
+    "score": 20
+  },
+  {
+    "id": 68,
+    "type": "single",
+    "text": "量词在汉语中的演化史,以()时代作为一个重要的转折点。",
+    "options": [
+      { "key": "A", "text": "西周" },
+      { "key": "B", "text": "先秦" },
+      { "key": "C", "text": "两汉" },
+      { "key": "D", "text": "宋代" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 69,
+    "type": "tf",
+    "text": "通用量词就是只能和特定的名词进行搭配的量词。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 70,
+    "type": "tf",
+    "text": "通用量词的出现提升了古汉语的韵律上的齐一性。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 71,
+    "type": "tf",
+    "text": "按照认知语言学的看法,我们对整个世界当中的事物的描述都是一种隐喻投射机制。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 72,
+    "type": "tf",
+    "text": "站在整个全球人类语言演化的大方向上来看,量词现象是具有地方性的。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  }
+]

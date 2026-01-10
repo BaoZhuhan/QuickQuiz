@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "type": "single",
+    "text": "以下哪个是苹果公司的创始人之一？",
+    "options": [
+      { "key": "A", "text": "史蒂夫·乔布斯" },
+      { "key": "B", "text": "比尔·盖茨" },
+      { "key": "C", "text": "马克·扎克伯格" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 2,
+    "type": "multiple",
+    "text": "以下哪些属于前端核心技术？",
+    "options": [
+      { "key": "A", "text": "HTML" },
+      { "key": "B", "text": "CSS" },
+      { "key": "C", "text": "JavaScript" },
+      { "key": "D", "text": "Python" }
+    ],
+    "answer": ["A", "B", "C"],
+    "score": 20
+  },
+  {
+    "id": 3,
+    "type": "tf",
+    "text": "HTML 是由 W3C 组织维护的。",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 5
+  }
+]

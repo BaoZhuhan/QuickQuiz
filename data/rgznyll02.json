@@ -1,0 +1,506 @@
+[
+  {
+    "id": 1,
+    "type": "multiple",
+    "text": "目前对人工智能的发展所持有的观点有",
+    "options": [
+      { "key": "A", "text": "乌托邦论" },
+      { "key": "B", "text": "模块论" },
+      { "key": "C", "text": "末世论" },
+      { "key": "D", "text": "泡沫论" }
+    ],
+    "answer": ["A", "C", "D"],
+    "score": 20
+  },
+  {
+    "id": 2,
+    "type": "tf",
+    "text": "现在的人工智能系统都是专用人工智能而非通用人工智能",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 3,
+    "type": "single",
+    "text": "一个真正的通用人工智能系统应具备处理什么问题的能力",
+    "options": [
+      { "key": "A", "text": "全局性" },
+      { "key": "B", "text": "局部性" },
+      { "key": "C", "text": "专业性" },
+      { "key": "D", "text": "统一性" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 4,
+    "type": "single",
+    "text": "目前的人工智能研发的动力主要来源于",
+    "options": [
+      { "key": "A", "text": "科学" },
+      { "key": "B", "text": "商业" },
+      { "key": "C", "text": "学术" },
+      { "key": "D", "text": "军事" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 5,
+    "type": "tf",
+    "text": "现有的人工神经元网络或深度学习无法处理全局性问题",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 6,
+    "type": "tf",
+    "text": "人工神经元网络只需要很少的数据便可掌握处理特定问题的能力",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 7,
+    "type": "multiple",
+    "text": "下列哪些选项属于通用智力因素",
+    "options": [
+      { "key": "A", "text": "短期记忆" },
+      { "key": "B", "text": "流体智力" },
+      { "key": "C", "text": "晶体智力" },
+      { "key": "D", "text": "反应速度" }
+    ],
+    "answer": ["A", "B", "C", "D"],
+    "score": 20
+  },
+  {
+    "id": 8,
+    "type": "single",
+    "text": "能够推进人工智能智能的研究最好方法是",
+    "options": [
+      { "key": "A", "text": "继续完善深度学习" },
+      { "key": "B", "text": "提升计算机处理数据的能力" },
+      { "key": "C", "text": "研究人类自己的智能" },
+      { "key": "D", "text": "研发通用人工智能" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 9,
+    "type": "tf",
+    "text": "类脑人工智能是指模拟人类大脑的人工智能",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 10,
+    "type": "tf",
+    "text": "人类自己的智能体现了通用性",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 11,
+    "type": "multiple",
+    "text": "以下哪些选项属于自然智能",
+    "options": [
+      { "key": "A", "text": "植物" },
+      { "key": "B", "text": "动物" },
+      { "key": "C", "text": "细菌" },
+      { "key": "D", "text": "机器" }
+    ],
+    "answer": ["A", "B", "C"],
+    "score": 20
+  },
+  {
+    "id": 12,
+    "type": "multiple",
+    "text": "有观点认为，植物也是有智能的，它们具有的特点包括",
+    "options": [
+      { "key": "A", "text": "能对环境进行灵活的应对" },
+      { "key": "B", "text": "能够不断创新" },
+      { "key": "C", "text": "具有十分牢固的记忆力" },
+      { "key": "D", "text": "经济高效" }
+    ],
+    "answer": ["A", "C"],
+    "score": 20
+  },
+  {
+    "id": 13,
+    "type": "tf",
+    "text": "智能与神经元网络的存在具有必然关系",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 14,
+    "type": "tf",
+    "text": "类脑人工智能及人工神经元网络只是智能展现的一种形式",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 15,
+    "type": "single",
+    "text": "提出强人工智能与弱人工智能的人是",
+    "options": [
+      { "key": "A", "text": "约翰·塞尔" },
+      { "key": "B", "text": "彼得卡鲁瑟斯" },
+      { "key": "C", "text": "杰瑞·佛多" },
+      { "key": "D", "text": "埃隆·马斯克" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 16,
+    "type": "tf",
+    "text": "通用人工智能就是强人工智能",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 17,
+    "type": "single",
+    "text": "深度学习的数据材料来源于",
+    "options": [
+      { "key": "A", "text": "人工搜集" },
+      { "key": "B", "text": "已有数据库" },
+      { "key": "C", "text": "抽样调查" },
+      { "key": "D", "text": "互联网" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 18,
+    "type": "single",
+    "text": "大数据技术的样本空间是",
+    "options": [
+      { "key": "A", "text": "不针对所有相关数据" },
+      { "key": "B", "text": "需要确立样本范围" },
+      { "key": "C", "text": "不做样本控制" },
+      { "key": "D", "text": "以上都不对" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 19,
+    "type": "tf",
+    "text": "统计学研究首先要确立样本空间，进行合理抽样，然后估测出相关的情况",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 20,
+    "type": "tf",
+    "text": "当前的主流人工智能是通向真正的通用人工智能的康庄大道",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 21,
+    "type": "multiple",
+    "text": "技术问题背后还有着什么问题",
+    "options": [
+      { "key": "A", "text": "如何取样" },
+      { "key": "B", "text": "社会的公平正义" },
+      { "key": "C", "text": "社会的价值导向" },
+      { "key": "D", "text": "健康的网上习惯" }
+    ],
+    "answer": ["B", "C"],
+    "score": 20
+  },
+  {
+    "id": 22,
+    "type": "single",
+    "text": "大数据所搜集到的用户群体都是",
+    "options": [
+      { "key": "A", "text": "具有线上行为的用户" },
+      { "key": "B", "text": "具有线下行为的用户" },
+      { "key": "C", "text": "参与调研的用户" },
+      { "key": "D", "text": "不参与调研的用户" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 23,
+    "type": "single",
+    "text": "人类心智比较容易适应什么环境",
+    "options": [
+      { "key": "A", "text": "大数据" },
+      { "key": "B", "text": "小数据" },
+      { "key": "C", "text": "多数据" },
+      { "key": "D", "text": "单一数据" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 24,
+    "type": "tf",
+    "text": "由于大数据只能体现出数量而不能进行质量上的判断，所以在采样并不完整的情况下给出的结论未必准确",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 25,
+    "type": "tf",
+    "text": "大数据会使人类的行为逐渐趋同",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 26,
+    "type": "multiple",
+    "text": "绿色人工智能是指",
+    "options": [
+      { "key": "A", "text": "对环境友好" },
+      { "key": "B", "text": "所需数据小" },
+      { "key": "C", "text": "消耗资源少" },
+      { "key": "D", "text": "效率高" }
+    ],
+    "answer": ["A", "B", "C"],
+    "score": 20
+  },
+  {
+    "id": 27,
+    "type": "single",
+    "text": "“节俭性理性”是谁提出的",
+    "options": [
+      { "key": "A", "text": "赫伯特·西蒙" },
+      { "key": "B", "text": "吉仁泽" },
+      { "key": "C", "text": "司马贺" },
+      { "key": "D", "text": "拉普拉斯" }
+    ],
+    "answer": ["B"],
+    "score": 10
+  },
+  {
+    "id": 28,
+    "type": "single",
+    "text": "利用自己的认知本能来进行判断的思维算法是",
+    "options": [
+      { "key": "A", "text": "科学法" },
+      { "key": "B", "text": "逻辑法" },
+      { "key": "C", "text": "捷思法" },
+      { "key": "D", "text": "大数据" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 29,
+    "type": "tf",
+    "text": "面临信息过载的情况，最好的判断方法是通过本能运用原始算法",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 30,
+    "type": "tf",
+    "text": "大量信息的提供，尤其是彼此矛盾的信息的提供并不会导致我们的思维过载",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 31,
+    "type": "tf",
+    "text": "赫伯特·西蒙提出了有限理性理论",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 32,
+    "type": "single",
+    "text": "过度开采社会人文资源，是指在大数据的环境下对什么的侵犯",
+    "options": [
+      { "key": "A", "text": "个人隐私" },
+      { "key": "B", "text": "大众心理" },
+      { "key": "C", "text": "个人的行为规范" },
+      { "key": "D", "text": "大众消费习惯" }
+    ],
+    "answer": ["A"],
+    "score": 10
+  },
+  {
+    "id": 33,
+    "type": "tf",
+    "text": "大数据无法维持人类社会的隐私和公开之间的张力平衡",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 34,
+    "type": "tf",
+    "text": "深度学习就是一种绿色人工智能",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 35,
+    "type": "multiple",
+    "text": "真正的通用人工智能系统具有把握什么的能力",
+    "options": [
+      { "key": "A", "text": "专业性" },
+      { "key": "B", "text": "跨领域" },
+      { "key": "C", "text": "局部性" },
+      { "key": "D", "text": "全局性" }
+    ],
+    "answer": ["B", "D"],
+    "score": 20
+  },
+  {
+    "id": 36,
+    "type": "single",
+    "text": "在人工智能的所有子课题中，所牵涉范围最广的是",
+    "options": [
+      { "key": "A", "text": "机器视觉" },
+      { "key": "B", "text": "非确定条件下的推理" },
+      { "key": "C", "text": "机器听觉" },
+      { "key": "D", "text": "自然语言处理" }
+    ],
+    "answer": ["D"],
+    "score": 10
+  },
+  {
+    "id": 37,
+    "type": "tf",
+    "text": "语言是检测人工智能是否真正厉害的试金石",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 38,
+    "type": "tf",
+    "text": "机器语言的特点是有丰富的修辞手段",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  },
+  {
+    "id": 39,
+    "type": "multiple",
+    "text": "下列属于行为主义心理学家的是",
+    "options": [
+      { "key": "A", "text": "约翰·华生" },
+      { "key": "B", "text": "博尔赫斯·斯金纳" },
+      { "key": "C", "text": "巴普洛夫" },
+      { "key": "D", "text": "冯特" }
+    ],
+    "answer": ["A", "B"],
+    "score": 20
+  },
+  {
+    "id": 40,
+    "type": "single",
+    "text": "聊天机器人ELIZA的运作，很大程度上采用了将计就计的策略，它本身并没有一个完整的",
+    "options": [
+      { "key": "A", "text": "神经元" },
+      { "key": "B", "text": "符号建模" },
+      { "key": "C", "text": "语义建模" },
+      { "key": "D", "text": "数据库" }
+    ],
+    "answer": ["C"],
+    "score": 10
+  },
+  {
+    "id": 41,
+    "type": "tf",
+    "text": "图灵测验本身具有浓重的行为主义色彩",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["T"],
+    "score": 10
+  },
+  {
+    "id": 42,
+    "type": "tf",
+    "text": "聊天机器人某种程度上具备人类的心智",
+    "options": [
+      { "key": "T", "text": "正确" },
+      { "key": "F", "text": "错误" }
+    ],
+    "answer": ["F"],
+    "score": 10
+  }
+]
