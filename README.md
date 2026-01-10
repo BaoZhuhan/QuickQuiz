@@ -1,20 +1,28 @@
 # QuickQuiz
 
-QuickQuiz 是一个极简、优雅且可靠的单页面应用 (SPA) 测验系统，专为多科目、多题目集的练习场景而设计。本项目采用原生 HTML、CSS 和 JavaScript 构建，拥有仿 Apple 风格的毛玻璃视觉界面，支持单选、多选及判断题型，并具备回答正确自动跳转、科目作用域限制、随机出题以及多主题切换等核心功能。系统设计注重数据完整性与异常捕获，能够优雅地处理非标准题目数据，为用户提供纯净、无干扰且高效的刷题体验。
+<p align="center">
+  <img src="https://img.shields.io/github/license/BaoZhuhan/QuickQuiz?style=flat-square&color=0071e3" alt="License">
+  <img src="https://img.shields.io/github/stars/BaoZhuhan/QuickQuiz?style=flat-square&color=0071e3" alt="Stars">
+  <img src="https://img.shields.io/github/forks/BaoZhuhan/QuickQuiz?style=flat-square&color=0071e3" alt="Forks">
+  <img src="https://img.shields.io/github/languages/top/BaoZhuhan/QuickQuiz?style=flat-square&color=0071e3" alt="Language">
+  <img src="https://img.shields.io/github/repo-size/BaoZhuhan/QuickQuiz?style=flat-square&color=0071e3" alt="Size">
+</p>
 
-## 特色
-- **纯粹的前端实现**：无构建工具，无第三方依赖，响应极快。
-- **科目化组织**：支持将题目按科目（Subject）和题目集（Set）二级分类管理。
-- **极简交互**：单选题选中即提交，正确自动下一题，错误显示详细解析。
-- **精美视觉**：支持明亮、深色及多种莫兰迪色系主题，完美适配移动端。
-- **数据兼容**：内置题目格式标准化逻辑，容错性强。
+QuickQuiz is a minimal, elegant, and reliable Single Page Application (SPA) quiz system designed for efficient practice across multiple subjects and question sets. Built with vanilla HTML, CSS, and JavaScript, it features a glassmorphism UI inspired by Apple's design language, supporting multiple question types including single-choice, multiple-choice, and true/false. By prioritizing data integrity and seamless interaction—such as auto-advancing on correct answers and subject-scoped randomization—QuickQuiz provides a pure, distraction-free environment for users to master their knowledge with ease.
 
-## 运行方式
-项目采用静态服务器运行，例如使用 Python 启动：
+## Key Features
+- **Pure Frontend Implementation**: No build tools, zero dependencies, and lightning-fast performance.
+- **Subject-Oriented Organization**: Seamlessly manage questions categorized by Subjects and Question Sets.
+- **Optimized UX**: Single-choice questions submit instantly on selection with automatic progression for correct answers.
+- **Stunning Visuals**: Sleek glassmorphism design with support for Light, Dark, and several Pastel color themes.
+- **Data Resilience**: Built-in data normalization logic to handle and recover from non-standard JSON formats.
+
+## Getting Started
+QuickQuiz runs on any static web server. You can quickly launch it using Python:
 ```bash
 python3 -m http.server 8000
 ```
-然后访问 `http://localhost:8000` 即可。
+Then visit `http://localhost:8000` in your browser.
 
-## 作者
+## Author
 - [BaoZhuhan](https://github.com/BaoZhuhan)
