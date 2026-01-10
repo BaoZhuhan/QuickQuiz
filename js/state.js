@@ -15,8 +15,10 @@ export const STATE = {
 
 export const els = {
     app: document.getElementById('app'),
+    logo: document.getElementById('logo'),
     homeView: document.getElementById('home-view'),
     quizView: document.getElementById('quiz-view'),
+    contributeView: document.getElementById('contribute-view'),
     subjectList: document.getElementById('subject-list'),
     setSelect: document.getElementById('set-select'),
     themeSelect: document.getElementById('theme-select'),
@@ -33,6 +35,8 @@ export const els = {
     endBtn: document.getElementById('end-btn'),
     backBtn: document.getElementById('back-btn'),
     exitSubjectBtn: document.getElementById('exit-subject-btn'),
+    contributeBtn: document.getElementById('contribute-btn'),
+    closeContributeBtn: document.getElementById('close-contribute-btn'),
     menuToggle: document.getElementById('menu-toggle'),
     nav: document.getElementById('nav'),
     overlay: document.getElementById('overlay'),

@@ -1,6 +1,6 @@
 import { STATE, els } from './state.js';
 import { initTheme } from './theme.js';
-import { loadSubjects, applySelection, resetQuiz, checkAnswer, nextQuestion, exitSubject } from './quiz.js';
+import { loadSubjects, applySelection, resetQuiz, checkAnswer, nextQuestion, exitSubject, showContribute } from './quiz.js';
 import { showStats } from './stats.js';
 
 function bindEvents() {
@@ -17,6 +17,10 @@ function bindEvents() {
     els.endBtn.addEventListener('click', showStats);
     els.backBtn.addEventListener('click', resetQuiz);
     els.exitSubjectBtn.addEventListener('click', exitSubject);
+    
+    els.logo.addEventListener('click', exitSubject);
+    els.contributeBtn.addEventListener('click', showContribute);
+    els.closeContributeBtn.addEventListener('click', exitSubject);
 
     // Menu logic
     els.menuToggle.addEventListener('click', () => {

@@ -63,9 +63,15 @@ export function exitSubject() {
     STATE.questions = [];
     els.homeView.style.display = 'block';
     els.quizView.style.display = 'none';
+    els.contributeView.style.display = 'none';
     els.quizControls.style.display = 'none';
     els.randomControls.style.display = 'none';
     els.exitSubjectBtn.style.display = 'none';
+}
+
+export function showContribute() {
+    els.homeView.style.display = 'none';
+    els.contributeView.style.display = 'block';
 }
 
 function normalize(data, filename) {

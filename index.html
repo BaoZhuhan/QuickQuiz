@@ -9,9 +9,12 @@
 </head>
 <body id="app">
     <header>
-        <div class="logo">QuickQuiz</div>
+        <div class="logo" id="logo" style="cursor: pointer;">QuickQuiz</div>
         <div class="nav-overlay" id="overlay"></div>
         <nav id="nav">
+            <a href="https://github.com/BaoZhuhan/QuickQuiz" target="_blank" class="github-link" aria-label="GitHub Repository">
+                <svg viewBox="0 0 16 16" width="24" height="24" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+            </a>
             <div class="toggle-container" id="quiz-controls" style="display: none;">
                 <label for="set-select">题目集：</label>
                 <select id="set-select"></select>
@@ -42,6 +45,39 @@
             <div class="subject-grid" id="subject-list">
                 <!-- 科目卡片 -->
                 <div class="loading">正在加载科目内容...</div>
+            </div>
+            <div style="text-align: center; margin-top: 40px;">
+                <button class="btn-secondary" id="contribute-btn" style="width: auto; padding: 10px 25px;">💡 为本项目贡献题目</button>
+            </div>
+        </section>
+
+        <!-- 贡献页面 -->
+        <section id="contribute-view" style="display: none;">
+            <div class="card">
+                <h2 style="margin-bottom: 20px;">如何贡献题目？</h2>
+                <div style="text-align: left; line-height: 1.8;">
+                    <p>1. <b>准备数据</b>：将你的题目整理为文本格式。</p>
+                    <p>2. <b>使用 AI 转换</b>：复制下方的提示词给任意大模型（如 ChatGPT, Claude, Gemini），将你的文本转换为标准 JSON。</p>
+                    <p>3. <b>提交文件</b>：将生成的 JSON 保存为新文件（如 <code>my_subject.json</code>）放进 <code>data/</code> 文件夹，并更新 <code>data/index.json</code>。</p>
+                </div>
+
+                <h3 style="margin: 25px 0 10px;">LLM 转换提示词 (Prompt)</h3>
+                <div style="background: var(--bg-accent); padding: 20px; border-radius: 12px; font-family: monospace; font-size: 0.9rem; text-align: left; position: relative;">
+                    <pre style="white-space: pre-wrap; margin: 0;">你是一位专业的数据工程专家。请将我提供的松散题目文本转换为符合以下结构的 JSON 数组：
+{
+  "id": 1,
+  "type": "single", // tf, single, multiple
+  "text": "题目内容",
+  "options": [{ "key": "A", "text": "选项内容" }],
+  "answer": ["A"],
+  "score": 10
+}
+转换规则：单选题选即提交，判断题 keys 为 T/F，分值单项10分多项20分。去除冗余括号和序号。</pre>
+                </div>
+                
+                <div class="actions" style="margin-top: 30px;">
+                    <button class="btn-primary" id="close-contribute-btn">返回首页</button>
+                </div>
             </div>
         </section>
 
@@ -93,7 +129,7 @@
     </main>
 
     <footer>
-        &copy; 2026 QuickQuiz SPA - 极简 · 优雅 · 可靠 | Author: <a href="https://github.com/BaoZhuhan" target="_blank">鲍竹涵</a>
+        &copy; 2026 QuickQuiz - 极简 · 优雅 · 可靠 | Author: <a href="https://github.com/BaoZhuhan" target="_blank">鲍竹涵</a>
     </footer>
 
     <script type="module" src="js/app.js"></script>
