@@ -18,7 +18,10 @@ function bindEvents() {
     els.backBtn.addEventListener('click', resetQuiz);
     els.exitSubjectBtn.addEventListener('click', exitSubject);
     
-    els.logo.addEventListener('click', exitSubject);
+    els.logo.addEventListener('click', (e) => {
+        e.preventDefault();
+        exitSubject();
+    });
     els.contributeBtn.addEventListener('click', showContribute);
     els.closeContributeBtn.addEventListener('click', exitSubject);
 
