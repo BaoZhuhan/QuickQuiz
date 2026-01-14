@@ -16,6 +16,13 @@
                 "rgznyll03.json",
                 "rgznyll04.json"
             ]
+        },
+        {
+            "id": "zzptx",
+            "name": "组织胚胎学",
+            "files": [
+                "Histology_Embryology_quiz.json"
+            ]
         }
     ]
 }
