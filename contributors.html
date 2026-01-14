@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贡献者名单 - QuickQuiz</title>
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contributor-list {
+            margin-top: 40px;
+            display: grid;
+            gap: 20px;
+        }
+        .contributor-item {
+            background: var(--card);
+            backdrop-filter: var(--blur);
+            -webkit-backdrop-filter: var(--blur);
+            border: 1px solid var(--border);
+            padding: 20px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .contributor-item:hover {
+            transform: scale(1.02);
+        }
+        .contributor-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .contributor-name {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--primary);
+        }
+        .subject-name {
+            font-size: 0.9rem;
+            color: var(--muted);
+            margin-top: 4px;
+        }
+        .badge {
+            background: var(--primary);
+            color: var(--primary-contrast);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        #loading-text {
+            text-align: center;
+            color: var(--muted);
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body id="app">
+    <header>
+        <a class="logo" id="logo" href="index.html">QuickQuiz</a>
+        <nav id="nav">
+            <div class="toggle-container">
+                <label for="theme-select">主题：</label>
+                <select id="theme-select">
+                    <option value="light">明亮</option>
+                    <option value="dark">深色</option>
+                    <option value="pastel-mint">薄荷绿</option>
+                    <option value="pastel-peach">奶油桃</option>
+                    <option value="pastel-lavender">薰衣草</option>
+                </select>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h1 style="font-size: 2rem; font-weight: 700;">🌟 鸣谢榜</h1>
+            <p style="color: var(--muted); margin-top: 10px;">感谢所有通过贡献题库让学习变得容易的人</p>
+        </div>
+
+        <div id="loading-text">正在加载贡献者数据...</div>
+        <div id="contributor-list" class="contributor-list"></div>
+
+        <div style="text-align: center; margin-top: 60px;">
+            <a href="index.html" class="btn-secondary" style="text-decoration: none; display: inline-block; width: auto; padding: 10px 40px;">返回首页</a>
+        </div>
+    </main>
+
+    <script>
+        // 主题管理
+        function initTheme() {
+            const savedTheme = localStorage.getItem('quiz-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            const themeSelect = document.getElementById('theme-select');
+            if (themeSelect) {
+                themeSelect.value = savedTheme;
+                themeSelect.addEventListener('change', (e) => {
+                    const newTheme = e.target.value;
+                    document.documentElement.setAttribute('data-theme', newTheme);
+                    localStorage.setItem('quiz-theme', newTheme);
+                });
+            }
+        }
+
+        // 加载贡献者
+        async function loadContributors() {
+            try {
+                const response = await fetch('data/index.json');
+                const data = await response.json();
+                const listEl = document.getElementById('contributor-list');
+                const loadingEl = document.getElementById('loading-text');
+                
+                // 筛选有贡献者的科目
+                const contributors = data.subjects
+                    .filter(s => s.contributor)
+                    .map(s => ({
+                        name: s.contributor,
+                        subject: s.name
+                    }));
+
+                if (contributors.length === 0) {
+                    loadingEl.textContent = "暂无贡献者信息，欢迎加入！";
+                    return;
+                }
+
+                loadingEl.style.display = 'none';
+                contributors.forEach(c => {
+                    const item = document.createElement('div');
+                    item.className = 'contributor-item';
+                    item.innerHTML = `
+                        <div class="contributor-info">
+                            <span class="contributor-name">${c.name}</span>
+                            <span class="subject-name">贡献科目：${c.subject}</span>
+                        </div>
+                        <span class="badge">贡献者</span>
+                    `;
+                    listEl.appendChild(item);
+                });
+            } catch (error) {
+                console.error('Failed to load contributors:', error);
+                document.getElementById('loading-text').textContent = "加载失败，请重试。";
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initTheme();
+            loadContributors();
+        });
+    </script>
+</body>
+</html>

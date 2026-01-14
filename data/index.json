@@ -10,6 +10,7 @@
         {
             "id": "rgznyll",
             "name": "人工智能、语言与伦理",
+            "contributor": "Zhuhan Bao",
             "files": [
                 "rgznyll01.json",
                 "rgznyll02.json",
@@ -20,6 +21,7 @@
         {
             "id": "zzptx",
             "name": "组织胚胎学",
+            "contributor": "cuclr",
             "files": [
                 "Histology_Embryology_quiz.json"
             ]

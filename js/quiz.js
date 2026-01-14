@@ -18,7 +18,10 @@ function renderSubjectCards() {
     STATE.subjects.forEach(sub => {
         const card = document.createElement('div');
         card.className = 'subject-card';
-        card.innerHTML = `<h3>${sub.name}</h3>`;
+        card.innerHTML = `
+            <h3>${sub.name}</h3>
+            ${sub.contributor ? `<div class="contributor-tag">感谢: ${sub.contributor}</div>` : ''}
+        `;
         card.onclick = () => selectSubject(sub.id);
         els.subjectList.appendChild(card);
     });
